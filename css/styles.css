@@ -1,0 +1,24 @@
+@import url("reset.css");
+@import url("card.css");
+@import url("media-queries.css");
+
+:root{
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Very-dark-cyan: hsl(158, 42%, 16%);
+    --Cream: hsl(30, 38%, 92%);
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+
+    --Fraunces: 'Fraunces', serif;;
+    --Montserrat: 'Montserrat', sans-serif;;
+}
+
+body, html{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: var(--Cream);
+}
