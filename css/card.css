@@ -1,0 +1,79 @@
+.card{
+    background-color: var(--White);
+    margin: 0 2rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    max-width: 580px;
+}
+
+.card__img{
+    width: 100%;
+}
+
+.card__img-desktop{
+    display: none;
+}
+
+.card__textos, .action{
+    padding: 0 6%;
+}
+
+.card__textos__subtitulo{
+    color: var(--Dark-grayish-blue);
+    margin: 1rem 0;
+    letter-spacing: .3rem;
+    font-family: var(--Montserrat);
+    font-size: 14px;
+}
+
+.card__textos__titulo{
+    color: var(--Very-dark-blue);
+    font-family: var(--Fraunces);
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.card__textos__texto{
+    color: var(--Dark-grayish-blue);
+    font-family: var(--Montserrat);
+    font-size: 14px;
+    margin-bottom: 1.3rem;
+}
+
+.precos{
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+
+.preco__atual{
+    font-family: var(--Fraunces);
+    font-weight: 700;
+    color: var(--Dark-cyan);
+    font-size: 2rem;
+}
+
+.preco__antigo{
+    text-decoration: line-through;
+    font-size: 12px;
+    color: var(--Dark-grayish-blue);
+}
+
+.cta__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    border: none;
+    width: 100%;
+    background-color: var(--Dark-cyan);
+    color: var(--White);
+    font-family: var(--Montserrat);
+    font-weight: 700;
+    padding: 1rem 0;
+    border-radius: .5rem;
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: .5s;
+}
